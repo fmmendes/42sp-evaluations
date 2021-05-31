@@ -20,7 +20,7 @@ git clone $repo $user
 cd $user
 
 printf "${Blue}>> EX00 : ${NC}"
-if [ $(cat ex00/z | cat -e) = 'Z' ]; then
+if [ $(cat ex00/z | cat -e) = 'Z$' ]; then
 	printf "${Green}OK${NC}\n"
 else
 	printf "${Red}KO${NC}\n"
