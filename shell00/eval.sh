@@ -39,9 +39,9 @@ echo ""
 printf "${Blue}>> EX02 : Descompactando : ${NC}\n"
 tar xf ./ex02/exo2.tar
 printf "${Blue}Sample Output : \n"
-printf "${Yellow}drwx--xr-x 2 XXXXXXXX XXXXXXXX  6 2021-06-01 22:47:00.000000000 +0000 test0
+printf "${Yellow}drwx--xr-x 2 XXXXXXXX XXXXXXXX  XX 2021-06-01 22:47:00.000000000 +0000 test0
 -rwx--xr-- 1 XXXXXXXX XXXXXXXX  4 2021-06-01 21:46:00.000000000 +0000 test1
-dr-x---r-- 2 XXXXXXXX XXXXXXXX  6 2021-06-01 22:45:00.000000000 +0000 test2
+dr-x---r-- 2 XXXXXXXX XXXXXXXX  XX 2021-06-01 22:45:00.000000000 +0000 test2
 -r-----r-- 2 XXXXXXXX XXXXXXXX  1 2021-06-01 23:44:00.000000000 +0000 test3
 -rw-r----x 1 XXXXXXXX XXXXXXXX  2 2021-06-01 23:43:00.000000000 +0000 test4
 -r-----r-- 2 XXXXXXXX XXXXXXXX  1 2021-06-01 23:44:00.000000000 +0000 test5
