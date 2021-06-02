@@ -32,42 +32,42 @@ sh ./ex01/print_groups.sh
 unset FT_USER
 echo ""
 
-printf "${Blue}>> EX02 \n"
+printf "\n${Blue}>> EX02 \n"
 printf "Conteúdo de 'find_sh.sh'${NC}\n"
 cat ./ex02/find_sh.sh
 printf "${Blue}Executar 'find_sh.sh'${NC}\n"
 sh ./ex02/find_sh.sh
 echo ""
 
-printf "${Blue}>> EX03 \n"
+printf "\n${Blue}>> EX03 \n"
 printf "Conteúdo de 'count_files.sh'${NC}\n"
 cat ./ex03/count_files.sh
 printf "${Blue}Executar 'count_files.sh'${NC}\n"
 sh ./ex03/count_files.sh
 echo ""
 
-printf "${Blue}>> EX04 \n"
+printf "\n${Blue}>> EX04 \n"
 printf "Conteúdo de 'MAC.sh'${NC}\n"
 cat ./ex04/MAC.sh
 printf "${Blue}Executar 'MAC.sh'${NC}\n"
 sh ./ex04/MAC.sh
 echo ""
 
-printf "${Blue}>> EX05 \n"
+printf "\n${Blue}>> EX05 \n"
 printf "\"\\?\$*'MaRViN'*\$?\\\" existe?${NC}\n"
 ls -lRa ./ex05/*MaRV* | cat -e
 printf "${Blue}Conteúdo de \"\\?\$*'MaRViN'*\$?\\\" ${NC}\n"
 cat ./ex05/\"\\?\$*\'MaRViN\'*\$?\\\"
 echo ""
 
-printf "${Blue}>> EX06 \n"
+printf "\n${Blue}>> EX06 \n"
 printf "Conteúdo de 'skip.sh'${NC}\n"
 cat ./ex06/skip.sh
 printf "${Blue}Executar 'skip.sh'${NC}\n"
 sh ./ex06/skip.sh
 echo ""
 
-printf "${Blue}>> EX07 \n"
+printf "\n${Blue}>> EX07 \n"
 printf "Conteúdo de 'r_dwssap.sh'${NC}\n"
 cat ./ex07/r_dwssap.sh
 printf "${Blue}Executar 'r_dwssap.sh'${NC}\n"
@@ -78,7 +78,7 @@ unset FT_LINE1
 unset FT_LINE2
 echo ""
 
-printf "${Blue}>> EX08 \n"
+printf "\n${Blue}>> EX08 \n"
 printf "Conteúdo de 'add_chelou.sh'${NC}\n"
 cat ./ex08/add_chelou.sh
 printf "${Blue}Executar 'add_chelou.sh'${NC}\n"
