@@ -1,3 +1,7 @@
-**/*
-
+*
 !**/eval.sh
+!.gitignore
+!first-time.sh
+!img1.png
+!README.md
+!update.sh
