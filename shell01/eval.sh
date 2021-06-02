@@ -39,35 +39,35 @@ printf "${Blue}Executar 'find_sh.sh'${NC}\n"
 sh ./ex02/find_sh.sh
 echo ""
 
-printf "\n${Blue}>> EX03 \n"
+printf "${Blue}>> EX03 \n"
 printf "Conteúdo de 'count_files.sh'${NC}\n"
 cat ./ex03/count_files.sh
 printf "${Blue}Executar 'count_files.sh'${NC}\n"
 sh ./ex03/count_files.sh
 echo ""
 
-printf "\n${Blue}>> EX04 \n"
+printf "${Blue}>> EX04 \n"
 printf "Conteúdo de 'MAC.sh'${NC}\n"
 cat ./ex04/MAC.sh
 printf "${Blue}Executar 'MAC.sh'${NC}\n"
 sh ./ex04/MAC.sh
 echo ""
 
-printf "\n${Blue}>> EX05 \n"
+printf "${Blue}>> EX05 \n"
 printf "\"\\?\$*'MaRViN'*\$?\\\" existe?${NC}\n"
 ls -lRa ./ex05/*MaRV* | cat -e
 printf "${Blue}Conteúdo de \"\\?\$*'MaRViN'*\$?\\\" ${NC}\n"
 cat ./ex05/\"\\?\$*\'MaRViN\'*\$?\\\"
 echo ""
 
-printf "\n${Blue}>> EX06 \n"
+printf "${Blue}>> EX06 \n"
 printf "Conteúdo de 'skip.sh'${NC}\n"
 cat ./ex06/skip.sh
 printf "${Blue}Executar 'skip.sh'${NC}\n"
 sh ./ex06/skip.sh
 echo ""
 
-printf "\n${Blue}>> EX07 \n"
+printf "${Blue}>> EX07 \n"
 printf "Conteúdo de 'r_dwssap.sh'${NC}\n"
 cat ./ex07/r_dwssap.sh
 printf "${Blue}Executar 'r_dwssap.sh'${NC}\n"
