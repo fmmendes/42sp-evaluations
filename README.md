@@ -20,4 +20,8 @@ bash update.sh
 ![imagem com exemplo da minha estrutura](./img1.png)
 # FAQ
 ## Mas não tem problemas eu clonar o repositório do amiginho dentro dessa pasta?
-> R.: Não, esse repositório possui um .gitignore que já cuida disso :)
+> R.: Não, esse repositório possui um .gitignore que já cuida disso :smile:
+# TO:DO
+- Escrever um script para automatizar o teste do shell01 (in progress)
+- Escrever um script para automatizar os testes de C
+- Fazer melhorias (sempre :smile:)
