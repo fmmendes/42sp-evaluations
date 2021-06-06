@@ -1,10 +1,10 @@
 /*
 shell*/*
 c/*
-!c/main/
 
 !/*/
 !/*/eval.sh
+!c/main/
 
 !.gitignore
 !first-time.sh
