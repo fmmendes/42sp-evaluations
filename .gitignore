@@ -1,6 +1,11 @@
-**/*
+/*
+shell*/*
+c/*
+!c/main/
+
 !/*/
 !/*/eval.sh
+
 !.gitignore
 !first-time.sh
 !img1.png

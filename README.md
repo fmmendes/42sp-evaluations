@@ -17,6 +17,11 @@ Shell01
 cd shell01
 ./eval.sh fimoraes git@vogsphere-v2.42sp.org.br:vogsphere/intra-uuid-6065b583-76ec-4541-85ee-4fd89f109a33-3580828
 ```
+C
+```shell
+cd shell01
+./eval.sh
+```
 # Como atualizar
 Através do terminal navegue até o diretório onde clonou esse git e execute o script update.sh
 ```shell
