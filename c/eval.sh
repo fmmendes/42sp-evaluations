@@ -9,22 +9,22 @@ Yellow='\033[0;33m'
 Blue='\033[0;34m'
 NC='\033[0m' # No Color
 
-lista=$1
-user=$2
-repo=$3
+read -p "Insira o nome da lista a ser avaliada (ex. c00): " lista
 
 if [ -z $lista ]; then
-    printf "\n${Red}Faltou informar qual lista está sendo avaliada${NC}\n\n"
+    printf "\n${Red}Você não informou a lista${NC}\n\n"
     exit 1
 fi
 
+read -p "Insira o user a ser avaliad(o/a) (ex. fimoraes): " user
 if [ -z $user ]; then
-    printf "\n${Red}Faltou informar qual lista está sendo avaliada${NC}\n\n"
+    printf "\n${Red}Você não informou o user${NC}\n\n"
     exit 1
 fi
 
-if [ -z $user ]; then
-    printf "\n${Red}Faltou informar qual lista está sendo avaliada${NC}\n\n"
+read -p "Insira o link do git a ser avaliado: " repo
+if [ -z $repo ]; then
+    printf "\n${Red}Você não informou o link do git${NC}\n\n"
     exit 1
 fi
 
@@ -38,6 +38,11 @@ git clone $repo $user
 
 printf "${Blue}= $lista files ====================================================================${NC}\n"
 
+if [ ! -d $user ]; then
+	printf "\n${Red}Houve algum erro clonando o git, verifique os textos acima.${NC}\n\n"
+    exit 1
+fi
+
 cd $user
 for i in $(ls -d */); do
 	Folder=${i%%/}
@@ -49,11 +54,11 @@ for i in $(ls -d */); do
 		printf "${Blue}Norme:${NC} "
 		if [ -z $Norme ]; then
 			printf "${Green}OK${NC} : ${Yellow}GCC${NC} : "
-			if ! [ -f $BASEDIR/C00/$Folder/main.c ]; then
-				printf "\n${Red}Arquivo main não encontrado.\n$BASEDIR/C00/$Folder/main.c${NC}\n\n"
+			if ! [ -f $BASEDIR/$lista/$Folder/main.c ]; then
+				printf "\n${Red}Arquivo main não encontrado.\n$BASEDIR/$lista/$Folder/main.c${NC}\n\n"
 				exit 1
 			fi
-			GCC=$(gcc -Wall -Wextra -Werror $BASEDIR/C00/$Folder/main.c $Folder/*.c -o $Folder/a.out 2>&1 | head -c1)
+			GCC=$(gcc -Wall -Wextra -Werror $BASEDIR/$lista/$Folder/main.c $Folder/*.c -o $Folder/a.out 2>&1 | head -c1)
 			if [ -z $GCC ]; then
 				printf "${Green}OK${NC}\n${Yellow}OUTPUT:${NC}\n"
 				$Folder/a.out
