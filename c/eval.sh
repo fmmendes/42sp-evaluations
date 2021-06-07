@@ -58,7 +58,7 @@ for i in $(ls -d */); do
 				printf "\n${Red}Arquivo main não encontrado.\n$BASEDIR/main/$lista/$Folder/main.c${NC}\n\n"
 				exit 1
 			fi
-			GCC=$(gcc -Wall -Wextra -Werror $BASEDIR/$lista/$Folder/main.c $Folder/*.c -o $Folder/a.out 2>&1 | head -c1)
+			GCC=$(gcc -Wall -Wextra -Werror $BASEDIR/main/$lista/$Folder/main.c $Folder/*.c -o $Folder/a.out 2>&1 | head -c1)
 			if [ -z $GCC ]; then
 				printf "${Green}OK${NC}\n${Yellow}OUTPUT:${NC}\n"
 				$Folder/a.out
