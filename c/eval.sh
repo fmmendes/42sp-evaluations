@@ -1,5 +1,5 @@
 #!/bin/sh
-BASEDIR=$(dirname "$0")
+BASEDIR=$(pwd)
 norminette=$(which norminette)
 
 # Colors
