@@ -54,7 +54,7 @@ for i in $(ls -d */); do
 		printf "${Blue}Norme:${NC} "
 		if [ -z $Norme ]; then
 			printf "${Green}OK${NC} : ${Yellow}GCC${NC} : "
-			if ! [ -f $BASEDIR/$lista/$Folder/main.c ]; then
+			if ! [ -f $BASEDIR/main/$lista/$Folder/main.c ]; then
 				printf "\n${Red}Arquivo main não encontrado.\n$BASEDIR/main/$lista/$Folder/main.c${NC}\n\n"
 				exit 1
 			fi
