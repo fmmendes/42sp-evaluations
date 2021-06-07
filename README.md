@@ -30,7 +30,7 @@ cd shell01
 ```
 C
 ```shell
-cd shell01
+cd c
 ./eval.sh
 ```
 # Como atualizar
