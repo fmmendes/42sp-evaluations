@@ -75,3 +75,6 @@ for i in $(ls -d */); do
 		printf "${Red}File Not Found${NC} : ${Red}KO${NC}\n"
 	fi
 done
+
+printf "${Yellow}Essa automação não dispensa em nenhum momento uma revisão no que foi submetido por quem está sendo avaliado${NC}\n"
+printf "${Yellow}Não deixe de questionar e fazer perguntas pertinentes sobre o que foi feito.${NC}\n"
