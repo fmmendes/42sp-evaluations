@@ -4,7 +4,6 @@ void	ft_swap(int *a, int *b);
 
 int main(void)
 {
-    printf("\e[1;34mExercício 02: \e[0m");
 	int a, b;
 	a = 7;
 	b = 8;
@@ -15,7 +14,7 @@ int main(void)
 	}
 	else
 	{
-		printf("\e[1;31mKO, Given a=7 b=8, got a=%i b=%i, expected a=8 b=7\e[0m", a, b);
+		printf("\e[1;31mKO\e[0m");
 	}
     return 0;
 }

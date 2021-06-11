@@ -4,8 +4,6 @@ void ft_ft(int *nbr);
 
 int main(void)
 {
-    printf("\e[1;34mExercício 00: \e[0m");
-
     int out;
     ft_ft(&out);
     if (out == 42)
@@ -14,7 +12,7 @@ int main(void)
     }
     else
     {
-        printf("\e[1;31mKO, out=%i. Expected out=42\e[0m", out);
+        printf("\e[1;31mKO\e[0m");
     }
     return (0);
 }

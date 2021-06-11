@@ -4,7 +4,6 @@ void	ft_div_mod(int a,int b,int *div,int *mod);
 
 int main(void)
 {
-    printf("\e[1;34mExercício 03: \e[0m");
 	int a, b;
 	a = 7;
 	b = 2;
@@ -17,7 +16,7 @@ int main(void)
 	}
 	else
 	{
-		printf("\e[1;31mKO, Given a=7 b=2, got div=%i mod=%i, expected div=3 mod=1\e[0m", div, mod);
+		printf("\e[1;31mKO\e[0m");
 	}
     return 0;
 }
