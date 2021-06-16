@@ -1,20 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ex05.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: vgoncalv <vgoncalv@student.42sp.org.br>    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/05 19:57:49 by vgoncalv          #+#    #+#             */
-/*   Updated: 2021/04/05 23:40:19 by vgoncalv         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <stdio.h>
-#include <string.h>
+#include <bsd/string.h> //compilar passando -lbsd pro gcc
 #include <stdlib.h>
 
-unsigned int 	strlcat(char *dest, char *src, unsigned int size);
 unsigned int 	ft_strlcat(char *dest, char *src, unsigned int size);
 
 void			ft_strlcat_test(char *dest, char *ft_dest, char *src, unsigned int size)
