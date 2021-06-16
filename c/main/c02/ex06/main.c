@@ -17,6 +17,11 @@ int		main(void)
 					printf("KO char %i is %sprintable\n", i, isprint(i) ? "" : "not ");
 					return (0);
 				}
+				if (i != 1)
+				{
+					printf("KO char %i is %sprintable\n", i, isprint(i) ? "" : "not ");
+					return (0);
+				}
 	}
 
 	printf("OK");
